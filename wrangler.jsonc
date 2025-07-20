@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "About-Jeremy",
+	"name": "about-jeremy",
 	"main": "src/index.tsx",
 	"compatibility_flags": [
 		"nodejs_compat"
