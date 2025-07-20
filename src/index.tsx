@@ -18,7 +18,7 @@ openapi.post("/api/about-job", AboutJob);
 
 // Register other endpoints
 app.get("/", (c) => {
-	return c.render(<Wrapper title="Jeremy Johnson - Home" className="bg--gradient"><HomePage /></Wrapper>)
+	return c.render(<Wrapper title="Jeremy Johnson" description="Full Stack Software Developer" className="bg--gradient"><HomePage /></Wrapper>)
 });
 
 // Export the Hono app
