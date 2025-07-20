@@ -40,7 +40,7 @@ export default function HomePage() {
         <Card className="mb">
           <CardSubTitle>Recent Projects</CardSubTitle>
           <ul>
-            {s4experiences.slice(0, 3).map((exp, expi) => (
+            {s4experiences.slice(0, 4).map((exp, expi) => (
               <li key={expi}>
                 {exp.label} - {exp.role}
                 <div className="tags">

@@ -2,6 +2,7 @@
   "name": "@jojech/about-jeremy",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://jeremy.productharbor.com",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
